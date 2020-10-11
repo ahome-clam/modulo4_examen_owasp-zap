@@ -37,6 +37,12 @@ public class ControlSelenium {
         this.webElement.sendKeys(value);
     }
 
+    public String getText() {
+        this.allureStep("Get string value of: "+this.myName);
+        this.findElement();
+        return this.webElement.getText();
+    }
+
     public boolean isDisplayedOnPage()
     {
         try{
