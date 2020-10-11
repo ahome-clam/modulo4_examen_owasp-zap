@@ -8,7 +8,6 @@ public class RequestGET implements IRequest{
     @Override
     public Response send(String url) {
         Response response = given()
-                .contentType(ContentType.JSON)
                 .when()
                 .get(url);
 
