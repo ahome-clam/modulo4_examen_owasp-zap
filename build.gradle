@@ -32,6 +32,7 @@ dependencies {
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured-all
     compile group: 'io.rest-assured', name: 'rest-assured-all', version: '4.3.1'
 
+    testCompile group: 'io.qameta.allure', name: 'allure-junit4', version: '2.13.5'
 }
 
 allure {
